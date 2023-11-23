@@ -11,7 +11,7 @@ public class BitWiseOperator {
 	public static void main(String[] args) 
 	{
 		/*
-		  다양한 진법 표현, 비트연산자
+		   다양한 진법 표현, 비트연산자
 		   10진수, 2진수, 8진수, 16진수, calc(계산기)
 		   
 		 */
@@ -27,7 +27,7 @@ public class BitWiseOperator {
 		
 		System.out.println("13.5" + "17.77"); // 13.517.77
 		System.out.println(Double.parseDouble("13.5") + Double.parseDouble("17.77")); // 31.27  문자열을 double 형으로..
-		
+		 
 		System.out.println("+++++++++++++++++++");
 		
 		Scanner sc = new Scanner(System.in);  //Ctrl +Shift + o
