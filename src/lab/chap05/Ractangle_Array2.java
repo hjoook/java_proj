@@ -165,6 +165,11 @@ public class Ractangle_Array2 {
            System.out.println("배열 방의 값이 동일여부");
         }
 		  
+		System.out.println(" abc ".trim()); //abc
 
-	}
+		String[] strArray = "abc/def-ghi jkl".split("/|-| ");
+		System.out.println(Arrays.toString(strArray)); //[abc, def, ghi, jkl]
+
+
+	}// main
 }
