@@ -18,7 +18,7 @@ public class Product_Test {
 		
 		int k = 1000;
 		pr1.setIdx(k+1);
-		pr1.setProName("abcd");
+		pr1.setProName("ab3-cd");
 		pr1.setQty(k+1-100);
 		pr1.setYear(k+1+1001);
 		pr1.setProColor("red");
@@ -52,9 +52,19 @@ public class Product_Test {
 		
 		for (int i = 0 ; i < arr.length ; i++)
 		{
-			Product ppr1 = arr[i];
-			System.out.println(ppr1);
+		//	if (arr[i].equals(null)) continue;
+			if(arr[i] != null){
+			    Product ppr1 = arr[i];
+			    System.out.println(ppr1);
+			    
+		    }
+
 		}
+		
+		String mm = pr1.getProName();
+		String[] mm1 = mm.split("-");
+		System.out.println(mm.split("-")[0]);
+		System.out.println(mm.split("-")[1]);
 
 	}
 

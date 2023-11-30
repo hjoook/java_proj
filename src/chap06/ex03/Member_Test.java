@@ -33,7 +33,7 @@ public class Member_Test
 		m2.setYear(1999);
 		m2.setMonth(9);
 		m2.setDay(23);
-		m2.setPhone("010-012-0124");
+		m2.setPhone("010-012-0124 ");
 		m2.setAddr("서울2");
 		
 		//입력 setter
