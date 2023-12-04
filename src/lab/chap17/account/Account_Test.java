@@ -12,6 +12,7 @@ public class Account_Test {
 		
 		//List<Account> aList = new ArrayList<>();
 		Account a = new Account();
+		String bb = new String();
 		
 		int select ;
 		
@@ -28,10 +29,20 @@ public class Account_Test {
 		    
 		    switch(select){
 		    case 0:		
+		    	    System.out.println("계좌명과 계좌번호를 입력하세요");
+		    	    bb = a.name;
 		    	    a.name = sc.next();
+		    	    if (a.name.equalsIgnoreCase(bb))
+		    	    {
+		    	    	System.out.println("기존 계약자가 존재합니다.");
+		    	    	break;
+		    	    }
 				    a.account = sc.nextInt();
 		    	    System.out.println(a);
-		    	    System.out.println("계좌이름 : " +a.getName() + "계좌번호 : " + a.getAccount() + " 잔액은 " + a.getMoney() + "원 입니다.");		    	    
+		    	    System.out.println("계좌이름 : " +a.getName() + "계좌번호 : " + a.getAccount() + " 잔액은 " + a.getMoney() + "원 입니다.");
+		    	    	    	    
+		    	    System.out.println(a.name);
+		    	    System.out.println(bb);
 		    	    break;
 		    case 1: 
 		    	    System.out.println("입금 금액을 입력하세요");

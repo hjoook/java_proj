@@ -2,7 +2,7 @@ package chap03.ex02;
 
 import java.util.Scanner;
 
-/* 문자타입 숫자로 
+/* 문자타입 숫자로, 문자열을 숫자로ㅉ
  *  Integer.parseInt
  *  Double.parseDouble
  * */

@@ -2,14 +2,14 @@ package lab.chap10;
 
 public class TigerChild extends Tiger{
 
-	int iChild;
-	
-	TigerChild() {	
+	TigerChild(String tName) {
+		super(tName);
+		this.tName  = tName;
 			
-		System.out.println(tName +"의 아이는 "+ iChild + "마리 입니다");
+		System.out.println(tName +"의 아이는 " );
 		}
 	
-	  
+	  int iChild;
 	
 }
 

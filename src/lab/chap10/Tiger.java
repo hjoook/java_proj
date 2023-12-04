@@ -2,8 +2,6 @@ package lab.chap10;
 
 public class Tiger extends Animal{
 	
-	Tiger(){}
-	
 	Tiger(String tName){
     	//super(); // 생략가능, 첫라인에 작성
     	 

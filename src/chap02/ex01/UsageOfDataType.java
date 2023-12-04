@@ -62,8 +62,7 @@ public class UsageOfDataType { // 클래스 영역
 		byte aa;
 		byte bb;
 		aa =-128;
-		bb = 127;
-		
+		bb = 127;		
 		System.out.println(aa);
 		System.out.println(bb);
 		

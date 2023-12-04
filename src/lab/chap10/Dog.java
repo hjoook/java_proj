@@ -1,11 +1,10 @@
 package lab.chap10;
 
 public class Dog extends Animal{
-	
-	Dog(){}
 
 	Dog(String dogName){
-    	//super(); // 생략가능, 첫라인에 작성    	 
+    	//super(); // 생략가능, 첫라인에 작성
+    	 
     	this.dogName  =  dogName;    	
     }
 	
